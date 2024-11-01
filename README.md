@@ -20,10 +20,10 @@ Friday is a browser-based voice assistant designed to provide users with a hands
 You can try out Friday by visiting the following link: [Friday Live Demo](https://fridaybygowtham.netlify.app/)
 
 ## Code Repository
-The source code for Friday is available on GitHub: [Friday GitHub Repository](<Your GitHub Repo Link>)
+The source code for Friday is available on GitHub: [Friday GitHub Repository](https://github.com/gowthamgovindhan28/Friday.git)
 
 ## Installation
 To run Friday locally, clone the repository and open the `index.html` file in your web browser. Make sure your browser supports the Web Speech API.
 
 ```bash
-git clone <Your GitHub Repo Link>
+git clone https://github.com/gowthamgovindhan28/Friday.git
