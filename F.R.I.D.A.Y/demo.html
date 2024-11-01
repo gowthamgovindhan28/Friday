@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  #content { 
+    height: 300px;
+    background-color: red;
+    overflow-y: scroll;
+  }
+</style>
+</head>
+
+<body>
+
+<button onclick="autoScrollDown()">
+  Click to Auto Scroll Down 
+</button>
+
+<div id="content">
+
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+  <p>Lorem ipsum dolor...</p>
+</div>
+
+<script>
+function autoScrollDown() { 
+ var a=document.querySelector('#content');
+
+  a.scrollTo(0, 800); 
+}
+</script>
+
+</body>
+</html>

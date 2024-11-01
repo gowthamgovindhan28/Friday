@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F.R.I.D.A.Y</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/iron-man-logo-poster.png" type="image/x-icon">
+</head>
+<body>
+    
+
+    <!-- audio on start -->
+    <audio src="./audio/Jarvis.mp3" id="j_intro"></audio>
+    <audio src="./audio/power up.mp3" class="au" ></audio>
+
+
+    <!-- weather section -->
+
+<div class="machine hide_on_small">
+
+
+    <div class="clock cont">
+        <img src="./img/clock1.png" alt="" class="icon">
+        <p id="time"></p>
+    </div>
+
+    <div class="internet cont">
+        <img src="./img/internet1.png" alt="" class="icon">
+        <p id="internet"></p>
+         
+    </div>
+
+    <div class="battery cont">
+        <img src="./img/battery1.png" alt="" class="icon">
+        <p id="battery"></p>
+    </div>
+
+
+
+    <div class="temp">
+        <p id="location"></p>
+        <p id="country"></p>
+        <p id="weatherT"></p>
+        <p id="weatherD"></p>
+        <img src="" alt="" id="weatherIcon">
+        <p id="oTemp"></p>
+        <p id="feelLikeTemp"></p>
+        <P id="minT"></P>
+        <p id="maxT"></p>
+
+    </div>
+
+        
+        <!-- <img src="./img/iron_man.gif" alt="" id="iron_man"> -->
+        <img src="./img/heart.gif" alt="" id="heart">
+        <video src="./video/friday.mp4"  id="vi"></video>
+    </div>
+
+<button id="start_jarvis_btn" title="start FRIDAY" class="hide_on_small">
+    <img src="./img/start.gif" alt="Start F.R.I.D.A.Y">
+    <p>Start F.R.I.D.A.Y</p>
+    
+</button>
+
+<button id="stop_jarvis_btn" title="start FRIDAY" class="hide_on_small">
+    <img src="./img/start.gif" alt="Start F.R.I.D.A.Y">
+    <p>Stop F.R.I.D.A.Y</p>
+</button>
+
+<div title="click to activate friday 2.0" class="small_jarvis hide_on_small">
+<button id="small_jarvis">
+    <img src="./img/iron_man.gif" width="220px">
+    <p>2.0</p>
+</button>
+  </div>
+
+
+
+<!-- jarvis setup bar -->
+<div class="jarvis_setup in_middle hide_on_small">
+
+    <label for="">your Name</label>
+    <input type="text" name="" id="">
+    <br>
+    <label for="">your Bio</label>
+    <input type="text" name="" id="">
+    <br>
+    <label for="">your location</label>
+    <input type="text" name="" id="">
+    <br>
+    <label for="">Instagram Profile</label>
+    <input type="text" name="" id="">
+    <br>
+    <label for="">Github Profile</label>
+    <input type="text" name="" id="">
+    <br>
+    <label for="">Twitter Profile</label>
+    <input type="text" name="" id="">
+    <br>
+
+    <button id="sub_btn">
+        Submit
+    </button>
+</div>
+
+<div class="messages hide_on_small">
+    
+</div>
+<div class="commands in_middle hide_on_small"></div>
+ 
+<div class="new_jarvis_window">
+    <img src="./img/iron_man.gif"  id="jarvis_start"/>
+  </div>
+
+<button id="on" style="display: none;">voice on</button>
+<button id="off" style="display: none;">voice off</button>
+
+<button id="speak" style="display: none;">speak out</button>
+
+<!-- video -->
+
+<!-- video -->
+
+
+
+</video>
+
+    <script src="app.js"></script>
+</body>
+</html>
